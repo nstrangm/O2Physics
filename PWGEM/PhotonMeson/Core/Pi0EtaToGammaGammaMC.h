@@ -1,4 +1,4 @@
-PWGEM/PhotonMeson/TableProducer/createEMEventPhoton.cxx// Copyright 2019-2020 CERN and copyright holders of ALICE O2.
+PWGEM / PhotonMeson / TableProducer / createEMEventPhoton.cxx // Copyright 2019-2020 CERN and copyright holders of ALICE O2.
 // See https://alice-o2.web.cern.ch/copyright for details of the copyright holders.
 // All rights not expressly granted are reserved.
 //
@@ -47,7 +47,7 @@ PWGEM/PhotonMeson/TableProducer/createEMEventPhoton.cxx// Copyright 2019-2020 CE
 #include "PWGEM/PhotonMeson/Core/EMPhotonEventCut.h"
 #include "PWGEM/Dilepton/Utils/MCUtilities.h"
 
-using namespace o2;
+                                      using namespace o2;
 using namespace o2::aod;
 using namespace o2::framework;
 using namespace o2::framework::expressions;
