@@ -1,4 +1,4 @@
-PWGJE/TableProducer/emcalCorrectionTask.cxx
+PWGJE / TableProducer / emcalCorrectionTask.cxx
 // Copyright 2019-2020 CERN and copyright holders of ALICE O2.
 // See https://alice-o2.web.cern.ch/copyright for details of the copyright holders.
 // All rights not expressly granted are reserved.
@@ -48,7 +48,7 @@ PWGJE/TableProducer/emcalCorrectionTask.cxx
 #include "PWGJE/Core/JetUtilities.h"
 #include "TVector2.h"
 
-using namespace o2;
+                        using namespace o2;
 using namespace o2::framework;
 using namespace o2::framework::expressions;
 using myGlobTracks = o2::soa::Join<o2::aod::FullTracks, o2::aod::TrackSelection>;
